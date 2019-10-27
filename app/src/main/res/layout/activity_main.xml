@@ -14,116 +14,116 @@
         android:id="@+id/mainEdit"
         android:layout_width="fill_parent"
         android:layout_height="67dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
-        android:layout_marginTop="92dp"
-        android:layout_alignParentTop="true"/>
+        android:layout_marginTop="32dp" />
 
     <LinearLayout
+        android:id="@+id/calcHolder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:orientation="horizontal"
-        android:id="@+id/calcHolder">
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
 
         <LinearLayout
+            android:id="@+id/numHolder"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:id="@+id/numHolder">
+            android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/oneTo3"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:orientation="horizontal"
-                android:id="@+id/oneTo3">
+                android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/btn_1"
-                    android:layout_width="90dp"
+                    android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/l1" />
 
                 <Button
                     android:id="@+id/btn_2"
-                    android:layout_width="90dp"
+                    android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/l2" />
 
                 <Button
                     android:id="@+id/btn_3"
-                    android:layout_width="90dp"
+                    android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/l3" />
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/fourToSix"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:orientation="horizontal"
-                android:id="@+id/fourToSix">
+                android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/btn_4"
-                    android:layout_width="90dp"
+                    android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/l4" />
 
                 <Button
                     android:id="@+id/btn_5"
-                    android:layout_width="90dp"
+                    android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/l5" />
 
                 <Button
                     android:id="@+id/btn_6"
-                    android:layout_width="90dp"
+                    android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/l6" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/sevenToNine"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:orientation="horizontal"
-                android:id="@+id/sevenToNine">
+                android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/btn_7"
-                    android:layout_width="90dp"
+                    android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/l7" />
 
                 <Button
                     android:id="@+id/btn_8"
-                    android:layout_width="90dp"
+                    android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/l8" />
 
                 <Button
                     android:id="@+id/btn_9"
-                    android:layout_width="90dp"
+                    android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/l9" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/misc"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:orientation="horizontal"
-                android:id="@+id/misc">
+                android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/btn_0"
-                    android:layout_width="90dp"
+                    android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/l0" />
 
                 <Button
                     android:id="@+id/btn_Dot"
-                    android:layout_width="90dp"
+                    android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/lDot"
                     android:textSize="18sp"
@@ -131,41 +131,42 @@
 
                 <Button
                     android:id="@+id/btn_Clear"
-                    android:layout_width="90dp"
+                    android:layout_width="80dp"
                     android:layout_height="60dp"
                     android:text="@string/clear" />
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:id="@+id/operations"
-            android:layout_width="113dp"
+            android:layout_width="wrap_content"
             android:layout_height="252dp"
             android:orientation="vertical">
 
             <Button
                 android:id="@+id/btn_Add"
-                android:layout_width="90dp"
+                android:layout_width="80dp"
                 android:layout_height="60dp"
                 android:text="@string/lAdd"
                 android:textSize="18sp" />
 
             <Button
                 android:id="@+id/btn_Sub"
-                android:layout_width="90dp"
+                android:layout_width="80dp"
                 android:layout_height="60dp"
                 android:text="@string/lSub"
                 android:textSize="18sp" />
 
             <Button
                 android:id="@+id/btn_Mult"
-                android:layout_width="90dp"
+                android:layout_width="80dp"
                 android:layout_height="60dp"
                 android:text="@string/lMult"
                 android:textSize="18sp" />
 
             <Button
                 android:id="@+id/btn_Div"
-                android:layout_width="90dp"
+                android:layout_width="80dp"
                 android:layout_height="60dp"
                 android:text="@string/lDiv"
                 android:textSize="18sp" />
